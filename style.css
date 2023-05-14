@@ -328,7 +328,7 @@ body {
   max-width: 90%;
   margin: 0 auto;
   position: relative;
-  height: 200px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
 }
 
 #quotes .quote {
@@ -359,8 +359,7 @@ body {
 }
 .social-icons {
   display: flex;
-  justify-content: flex-end;
-  margin-left: auto;
+  justify-content: center;
 }
 
 .social-icon {
@@ -379,4 +378,3 @@ body {
 .social-icon:hover {
   background-color: #555;
 }
-
