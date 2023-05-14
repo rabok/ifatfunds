@@ -1,9 +1,13 @@
+.navbar {
+  padding: 0.5rem 1rem; /* adjust as needed */
+}
+
 .navbar-brand {
   color: white !important;
 }
 
 .logo {
-  height: 30px; /* adjust as needed */
+  height: 0.5px; /* adjust as needed */
   width: auto; /* keeps aspect ratio */
   margin-right: 10px;
 }
