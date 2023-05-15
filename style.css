@@ -378,3 +378,45 @@ body {
 .social-icon:hover {
   background-color: #555;
 }
+
+.testimonial-section {
+  background-color: #13293d;
+  padding: 50px 0;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  width: 300px;
+  height: 300px;
+  background-color: #0f1e2d;
+  border-radius: 20px;
+  margin: 20px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.testimonial:hover {
+  transform: scale(1.1);
+}
+
+.testimonial-content {
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-content p {
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  font-weight: bold;
+}
