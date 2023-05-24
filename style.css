@@ -556,3 +556,42 @@ footer .fab {
   height: 100%;
   background: rgba(0, 0, 255, 0.5); /* the last value in the rgba function is the opacity - adjust as necessary */
 }
+/* Style the form itself */
+#contact-form {
+  width: 100%;
+  max-width: 600px; /* Or any width you want */
+  margin: 0 auto; /* This centers the form horizontally */
+  padding: 20px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Adding gradient background */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the input fields */
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the submit button */
+#contact-form input[type="submit"] {
+  background: linear-gradient(to right, #4CAF50, #8BC34A); /* Adding gradient background */
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Change color on hover */
+#contact-form input[type="submit"]:hover {
+  background: linear-gradient(to right, #8BC34A, #4CAF50); /* Changing gradient direction on hover */
+}

@@ -4,6 +4,24 @@
   <title>Contact - KenyaFund</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .navbar-brand {
+      color: #fff;
+      font-size: 24px;
+    }
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background-color: #0716e2;
+    }
+    .navbar a.nav-link {
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light glass">
@@ -54,15 +72,16 @@
               <label for="message">Message</label>
               <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" style="background-color: #0716e2; border-color: #ffff;">Submit</button>
           </form>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="py-3 glass text-center">
+  <footer class="py-3 glass text-center" style="background-color: #0716e2; color: #ffffff;">
     <p>&copy; 2023 KenyaFund. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
+
