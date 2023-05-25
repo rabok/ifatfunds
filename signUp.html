@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sign Up - KenyaFund</title>
+  <title>Organization Details - KenyaFund</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -29,52 +29,68 @@
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="signUp.html">Sign Up</a>
+          <a class="nav-link" href="organization.html">Organization Details</a>
         </li>
       </ul>
     </div>
   </nav>
 
   <main class="container my-5">
-    <!-- Sign Up -->
+    <!-- Organization Details -->
     <section>
-      <h1 class="text-center glass p-5">Sign Up</h1>
+      <h1 class="text-center glass p-5">Organization Details</h1>
       <div class="row">
         <div class="col-md-6 offset-md-3 glass p-3">
           <form>
             <div class="form-group">
-              <label for="firstName">First Name</label>
-              <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+              <label for="registrationDocuments">Registration Documents (PDF)</label>
+              <input type="file" class="form-control-file" id="registrationDocuments" accept=".pdf" required>
             </div>
             <div class="form-group">
-              <label for="lastName">Last Name</label>
-              <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+              <label for="certificateOfIncorporation">Certificate of Incorporation</label>
+              <input type="file" class="form-control-file" id="certificateOfIncorporation" accept=".pdf" required>
             </div>
             <div class="form-group">
-              <label for="email">Email Address</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              <label for="constitutionByLaws">Constitution or By-laws</label>
+              <input type="file" class="form-control-file" id="constitutionByLaws" accept=".pdf" required>
             </div>
             <div class="form-group">
-              <label for="password">Password</label>
-              <input type="password" class="form-control" id="password" placeholder="Enter a password" required>
+              <label for="annualReports">Annual Reports and Financial Statements</label>
+              <input type="file" class="form-control-file" id="annualReports" accept=".pdf" required>
             </div>
             <div class="form-group">
-              <label for="confirmPassword">Confirm Password</label>
-              <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required>
+              <label for="boardMembers">Board Members and Key Personnel</label>
+              <input type="file" class="form-control-file" id="boardMembers" accept=".pdf" required>
             </div>
-            <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="termsAndConditions" required>
-              <label class="form-check-label" for="termsAndConditions">I agree to the Terms and Conditions</label>
-            </c>
-            <button type="submit" class="btn btn-primary">Sign Up</button>
-            </form>
+            <div class="form-group">
+              <label for="pastProjects">Past Projects and Achievements</label>
+              <input type="file" class="form-control-file" id="pastProjects" accept=".pdf" required>
             </div>
+            <div class="form-group">
+              <label for="referees">Referees and Recommendations</label>
+              <input type="file" class="form-control-file" id="referees" accept=".pdf" required>
             </div>
-            </section>
-            
-              </main>
-              <footer class="py-3 glass text-center">
-                <p>&copy; 2023 KenyaFund. All Rights Reserved.</p>
-              </footer>
-            </body>
-            </html>
+            <div class="form-group">
+              <label for="onlinePresence">Online Presence and Social Links</label>
+              <input type="url" class="form-control" id="onlinePresence" placeholder="Enter the URL" required>
+            </div>
+            <div class="form-group">
+              <label for="legalCompliance">Legal Compliance</label>
+              <input type="text" class="form-control" id="legalCompliance" placeholder="Enter legal compliance details" required>
+            </div>
+            <div class="form-group">
+              <label for="donorPrivacyPolicy">Donor Privacy Policy</label>
+              <input type="file" class="form-control-file" id="donorPrivacyPolicy" accept=".pdf" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Update and Validate</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-3 glass text-center">
+    <p>&copy; 2023 KenyaFund. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
